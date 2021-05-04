@@ -230,7 +230,7 @@ a:hover {
 
 .AllScrollUps {
     margin-top: 100%;
-    position:   absolute;
+    position: absolute;
     z-index: -1;
 }
 
@@ -273,3 +273,57 @@ a:hover {
     font-size: 28px;
     padding: 0px 10px;
 }
+
+/* Contact page */
+.ContcatRect {
+    background-color: #fecf575d;
+    padding: 20px;
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #a434aabe;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #a434aabe;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #A434AA;
+}
+
+.ContactTitels {
+    color: #A434AA;
+    font-size: 30px;
+}
+
+.Contact {
+    position: absolute;
+    font-size: 215px;
+    z-index: -1;
+    color: #A434AA;
+}
+
+.YellowStripes {
+    position: absolute;
+    z-index: -2;
+    margin-top: 10%;
+    width: 100%;
+    margin-left: -160px;
+
+}
+  
