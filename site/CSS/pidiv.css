@@ -234,13 +234,12 @@ a {
     z-index: -1;
 }
 
-.ScrollUps:nth-child(odd) {
+.ScrollUps:nth-child(even) {
     flex-grow: 2;
 }
 
 #bottom {
     position: relative;
-    margin-top: 5%;
     z-index: -1;
 }
 
