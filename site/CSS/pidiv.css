@@ -318,20 +318,9 @@ input[type=submit]:hover {
     font-size: 30px;
 }
 
-.Contact {
-    position: absolute;
-    font-size: 215px;
-    z-index: -1;
-    color: #A434AA;
-}
 
 /* Work page  */
-.Work {
-    position: absolute;
-    font-size: 215px;
-    z-index: -1;
-    color: #A434AA;
-}
+
 
 .WorkRectYellow {
     background-color: #fecf575d;
@@ -360,6 +349,8 @@ input[type=submit]:hover {
     text-align: justify;
 }
 
+/* Nude page */
+
 .YellowStripes {
     position: absolute;
     z-index: -2;
@@ -367,5 +358,11 @@ input[type=submit]:hover {
     width: 100%;
     margin-left: -160px;
 
+}
+.PageTitel {
+    position: absolute;
+    font-size: 215px;
+    z-index: -1;
+    color: #A434AA;
 }
   
