@@ -1,7 +1,6 @@
 #TypoTimes {
     font-family: "Times New Roman", Times, serif;
     font-weight: lighter;
-    font-size: 215px;
 
 }
 
@@ -14,9 +13,8 @@
     font-size: 300px;
     height: 50%;
     width: 100%;
-    margin-left: 10%;
     display: flex;
-    position: fixed;
+    position: absolute;
     align-items: center;
     justify-content: center;
     color: white;
@@ -28,7 +26,7 @@
     font-size: 30px;
     font-weight: 200;
     color: black;
-    /* z-index: -1; */
+
     
 }
 
@@ -143,7 +141,6 @@ a {
 
 .GoToBottom {
     position: absolute;
-    z-index: -1;
     margin-left: 37%;
     top: 50%;
     text-decoration: none;
@@ -165,6 +162,7 @@ a {
     margin-top: 60%;
     margin-right: 5%;
     color: #A434AA;
+    font-size: 215px;
 }
 
 .PortraitCircle {
@@ -200,6 +198,16 @@ a {
     margin-left: 30%;
 }
 
+.TextAboutMe {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+    text-align: justify;
+    color: #fecf57 ;
+
+}
+
 .ScrollUps {
     height: 80px;
     /* position: absolute;
@@ -224,11 +232,12 @@ a {
 
 }
 
-#Welcome {
+.Welcome {
     margin-top: 0%;
     margin-bottom: -155px;
     margin-left: -4%;
     color: #FED057;
+    font-size: 215px;
 }
 
 /* Style page content */
