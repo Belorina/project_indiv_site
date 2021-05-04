@@ -280,7 +280,7 @@ a:hover {
     padding: 20px;
     margin-top: 10%;
     margin-right: 10%;
-  }
+}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -316,6 +316,42 @@ input[type=submit]:hover {
     font-size: 215px;
     z-index: -1;
     color: #A434AA;
+}
+
+/* Work page  */
+.Work {
+    position: absolute;
+    font-size: 215px;
+    z-index: -1;
+    color: #A434AA;
+}
+
+.WorkRectYellow {
+    background-color: #fecf575d;
+    padding: 20px;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+.WorkRectViolet {
+    background-color: #a434aa7a;
+    padding: 20px;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+
+.WorkTitels{
+    color: #A434AA;
+    font-size: 50px;
+}
+
+.WorkText {
+    color: #A434AA;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
 }
 
 .YellowStripes {
