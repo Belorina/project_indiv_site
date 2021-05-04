@@ -208,22 +208,29 @@ a {
 
 }
 
-.ScrollUps {
-    height: 80px;
-    /* position: absolute;
-    z-index: -1; */
-
+.AllScrollUps {
+    margin-top: 100%;
+    position:   absolute;
+    z-index: -1;
 }
 
+.ScrollUps {
+    
+    height: 80px;
+    display: flex;
+
+}
 
 .BottomRect {
     width: 85%;
     height: 80%;
+    margin-top: 1000%;
     position: absolute;
     left: 15%;
     z-index: -1;
     background: #A434AA;
 }
+
 .Intro {
     margin-top: 12%;
     margin-left: 155px;
@@ -234,7 +241,7 @@ a {
 
 .Welcome {
     margin-top: 0%;
-    margin-bottom: -155px;
+    /* margin-bottom: -155px; */
     margin-left: -4%;
     color: #FED057;
     font-size: 215px;
