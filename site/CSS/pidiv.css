@@ -124,7 +124,7 @@ a {
     color: #A434AA;
 }
 
-a:hover {
+#menu ul li a:hover {
     background-color: #A434AA;
     color: #FED057;
     padding: 1em;
