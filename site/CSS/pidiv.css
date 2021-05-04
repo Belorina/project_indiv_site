@@ -26,7 +26,6 @@
     font-size: 30px;
     font-weight: 200;
     color: black;
-
     
 }
 
@@ -70,10 +69,9 @@
     left: 0px;
 }
 
-#menu img {
+.menuSmiley{
     align-self: flex-end;
-    padding: 0.5em;
-    /* smiley */
+    margin: 0.5em;
 }
 
 .hamburger {
@@ -167,22 +165,18 @@ a:hover {
     text-align: center;
 }
 
-.AboutMeRect {
-    position: absolute;
-    margin-top: 54%;
-    margin-left: 25%;
-    height: 215px;
-    width: 63%;
-    z-index: -1;
-    background: linear-gradient(to right,#fecf57,#fecf57ef, #fecf573b) ;
+#about {
+    margin-top: 80%;
 }
 
-.AboutMe {
+#about h2 {
+    width: 63%;
     float: right;
-    margin-top: 60%;
-    margin-right: 5%;
     color: #A434AA;
     font-size: 215px;
+    padding-left: 2%;
+    padding-right: 10%;
+    background: linear-gradient(to right,#fecf57,#fecf57ef, #fecf573b) ;
 }
 
 .PortraitCircle {
@@ -192,8 +186,7 @@ a:hover {
     height: 800px;
     width: 800px;
 
-    margin-top: 46%;
-    margin-left: -15%;
+    margin-left: -13%;
     
     border-radius: 50%;
     background-color: #A434AA;
@@ -202,10 +195,9 @@ a:hover {
 .Portrait{
     position: absolute;
     z-index: -2;
-    margin-top: 50%;
-    margin-left: -15%;
+    margin-top: 2%;
+    margin-left: -13%;
     border-radius: 50%;
-
 }
 
 .TextAboutMeRect{
@@ -214,7 +206,7 @@ a:hover {
     height: 450px;
     width: 58%;
     background-color: #A434AA;
-    margin-top: 65%;
+    margin-top: 20%;
     margin-left: 30%;
 }
 
@@ -225,7 +217,6 @@ a:hover {
     font-size: 30px;
     text-align: justify;
     color: #fecf57 ;
-
 }
 
 .AllScrollUps {
@@ -238,33 +229,49 @@ a:hover {
     
     height: 80px;
     display: flex;
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
 }
 
+.ScrollUps {
+    z-index: -1;
+}
+
+.ScrollUps:nth-child(odd) {
+    flex-grow: 2;
+}
+
+#bottom {
+    position: relative;
+    margin-top: 5%;
+    z-index: -1;
+}
+
+.Welcome {
+    margin-top: 0%;
+    margin-bottom: -155px;
+    margin-left: -4%;
+    color: #FED057;
+    font-size: 215px;
+} 
+
 .BottomRect {
-    width: 85%;
-    height: 80%;
-    margin-top: 1000%;
+    width: 75%;
+    height:fit-content;
     position: absolute;
-    left: 15%;
+    left: 6%;
     z-index: -1;
     background: #A434AA;
 }
 
 .Intro {
-    margin-top: 12%;
-    margin-left: 155px;
-    margin-right: 155px;
+    padding-top: 12%;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-bottom: 5%;
     text-align: justify;
-
-}
-
-.Welcome {
-    margin-top: 0%;
-    /* margin-bottom: -155px; */
-    margin-left: -4%;
-    color: #FED057;
-    font-size: 215px;
 }
 
 /* Style page content */
