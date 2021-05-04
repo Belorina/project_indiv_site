@@ -95,21 +95,33 @@
 ul {
     padding: 0;
     list-style: none;
-    width: 80%;
+    width: 75%;
     margin-left: 10%;
     position: absolute;
     top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 ul li{
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
-    font-variant: small-caps;
     padding: 50px 0;
+    text-transform: uppercase;
+}
+
+ul li:nth-child(2), ul li:nth-child(4){
+    align-self: flex-end;
 }
 
 a {
     color: #A434AA;
+}
+
+a:hover {
+    background-color: #A434AA;
+    color: #FED057;
+    padding: 1em;
 }
 
 #mainpage{
