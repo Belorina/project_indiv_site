@@ -170,14 +170,12 @@ a {
 }
 
 #about h2 {
-    width: 63%;
     float: right;
     color: #A434AA;
     font-size: 215px;
     padding-left: 2%;
     padding-right: 10%;
     background: linear-gradient(to right,#fecf57,#fecf57ef, #fecf573b) ;
-    /* title*/
 }
 
 .PortraitCircle {
