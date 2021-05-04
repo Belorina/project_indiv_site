@@ -1,7 +1,7 @@
+/* TYPO */
 #TypoTimes {
     font-family: "Times New Roman", Times, serif;
     font-weight: lighter;
-
 }
 
 #TypoComic {
@@ -18,15 +18,13 @@
     align-items: center;
     justify-content: center;
     color: white;
-    text-shadow: 10px 7px #FED057;
-    
+    text-shadow: 10px 7px #FED057; 
 }
 
 .ClickHere {
     font-size: 30px;
     font-weight: 200;
-    color: black;
-    
+    color: black;   
 }
 
 .rectangle{
@@ -49,7 +47,7 @@
 }
 
 
-/* sidebar menu */
+/* SIDEBAR MENU */
 #menu {
     height: 100%;
     position: fixed;
@@ -134,6 +132,8 @@ a {
     background-color: black;
 }
 
+/* FOOTER */
+
 .FooterRect {
     width: 100%;
     height: 10%;
@@ -157,6 +157,7 @@ a {
     margin-right: 10%;
 }
 
+/* HOME PAGE */
 .GoToBottom {
     position: absolute;
     margin-left: 70%;
@@ -266,14 +267,14 @@ a {
     text-align: justify;
 }
 
-/* Style page content */
+/* STYLE PAGE CONTENT*/
 .main {
     margin-left: 160px;
     font-size: 28px;
     padding: 0px 10px;
 }
 
-/* Contact page */
+/* CONTACT PAGE */
 .ContcatRect {
     background-color: #fecf575d;
     padding: 20px;
@@ -311,22 +312,20 @@ input[type=submit]:hover {
 }
 
 
-/* Work page  */
-
-
+/* WORK PAGE */
 .WorkRectYellow {
     background-color: #fecf575d;
     padding: 20px;
     margin-top: 10%;
     margin-right: 10%;
 }
+
 .WorkRectViolet {
     background-color: #a434aa7a;
     padding: 20px;
     margin-top: 10%;
     margin-right: 10%;
 }
-
 
 .WorkTitels{
     color: #A434AA;
@@ -341,7 +340,7 @@ input[type=submit]:hover {
     text-align: justify;
 }
 
-/* Nude page */
+/* NUDEs? PAGE*/
 .Nude{
     width: 40%;
     margin-top: 10%;
@@ -351,6 +350,7 @@ input[type=submit]:hover {
     
 }
 
+/* GENERAL STUFF */
 .VioletStripes{
     position: absolute;
     z-index: -4;
