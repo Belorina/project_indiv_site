@@ -177,6 +177,7 @@ a:hover {
     padding-left: 2%;
     padding-right: 10%;
     background: linear-gradient(to right,#fecf57,#fecf57ef, #fecf573b) ;
+    /* title*/
 }
 
 .PortraitCircle {
@@ -220,14 +221,8 @@ a:hover {
 }
 
 .AllScrollUps {
-    margin-top: 100%;
-    position: absolute;
-    z-index: -1;
-}
-
-.ScrollUps {
-    
-    height: 80px;
+    position: relative;
+    padding-top: 20%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
