@@ -1,0 +1,239 @@
+#TypoTimes {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: lighter;
+    font-size: 215px;
+
+}
+
+#TypoComic {
+    font-family: "Comic Sans MS";
+}
+
+/* TITEL PAGE STUFF */
+.HugeTitel {
+    font-size: 300px;
+    height: 50%;
+    width: 100%;
+    margin-left: 10%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 10px 7px #FED057;
+    
+}
+
+.ClickHere {
+    font-size: 30px;
+    font-weight: 200;
+    color: black;
+    /* z-index: -1; */
+    
+}
+
+.rectangle{
+    height: 95%;
+    width: 95%;
+    margin-left: 2%;
+    display: flex;
+    position: fixed;
+
+    border: solid #A434AA; 
+    border-width: 5px ;
+    box-shadow: 10px 10px 60px -10px gray;
+}
+
+/*SMILEY LOGO*/ 
+.SmileyFace {
+    height: 45px;
+    position: absolute;
+}
+
+
+/* sidebar menu */
+#menu {
+    height: 100%;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    background-color: #FED057;
+    width: 80%;
+    transition: 1000ms all cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translateX(-100%);
+    left: 60px;
+    
+}
+
+#menu:hover{
+    transform: translateX(0%);
+    left: 0px;
+}
+
+.hamburger {
+    right: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 30%;
+}
+
+.hamburger .line {
+    width: 100%;
+    height: 4px;
+    background-color: #A434AA;
+    position: absolute;
+}
+
+.hamburger .line:nth-child(2) {
+    top: 50%;
+    margin-top: -2px;
+}
+
+.hamburger .line:nth-child(3) {
+    bottom: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    top: 10px;
+}
+
+ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-variant: small-caps;
+    padding: 50px 0;
+}
+
+a {
+    color: #A434AA;
+}
+
+#mainpage{
+    background-color: black;
+}
+
+.FooterRect {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background: #A434AA;
+
+    color: #FED057;
+    font-size: 20px;
+}
+
+.Footer {
+    float: left;
+    margin-left: 10%;
+}
+
+.SocialMedia {
+    float: right;
+    margin-right: 10%;
+}
+
+.GoToBottom {
+    position: absolute;
+    z-index: -1;
+    margin-left: 37%;
+    top: 50%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.AboutMeRect {
+    position: absolute;
+    margin-top: 54%;
+    margin-left: 25%;
+    height: 215px;
+    width: 63%;
+    z-index: -1;
+    background: linear-gradient(to right,#fecf57,#fecf57ef, #fecf573b) ;
+}
+
+.AboutMe {
+    float: right;
+    margin-top: 60%;
+    margin-right: 5%;
+    color: #A434AA;
+}
+
+.PortraitCircle {
+    position: absolute;
+    z-index: -3;
+
+    height: 800px;
+    width: 800px;
+
+    margin-top: 46%;
+    margin-left: -15%;
+    
+    border-radius: 50%;
+    background-color: #A434AA;
+}
+
+.Portrait{
+    position: absolute;
+    z-index: -2;
+    margin-top: 50%;
+    margin-left: -15%;
+    border-radius: 50%;
+
+}
+
+.TextAboutMeRect{
+    position: absolute;
+    z-index: -2;
+    height: 450px;
+    width: 58%;
+    background-color: #A434AA;
+    margin-top: 65%;
+    margin-left: 30%;
+}
+
+.ScrollUps {
+    height: 80px;
+    /* position: absolute;
+    z-index: -1; */
+
+}
+
+
+.BottomRect {
+    width: 85%;
+    height: 80%;
+    position: absolute;
+    left: 15%;
+    z-index: -1;
+    background: #A434AA;
+}
+.Intro {
+    margin-top: 12%;
+    margin-left: 155px;
+    margin-right: 155px;
+    text-align: justify;
+
+}
+
+#Welcome {
+    margin-top: 0%;
+    margin-bottom: -155px;
+    margin-left: -4%;
+    color: #FED057;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
